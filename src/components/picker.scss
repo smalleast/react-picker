@@ -21,7 +21,7 @@
   background-color: #fff;
   position: relative;
   text-align: center;
-  font-size: 17px;
+  font-size: 14px;
 }
 .weui-picker__hd:after {
   content: " ";
@@ -42,7 +42,7 @@
   -webkit-box-flex: 1;
   -webkit-flex: 1;
   flex: 1;
-  color: #1AAD19;
+  color: #a72e23;
 }
 .weui-picker__action:first-child {
   text-align: left;
@@ -221,4 +221,21 @@
   to {
     opacity: 0;
   }
+}
+.weui-mask {
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.6);
+}
+.weui-mask_transparent {
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
 }
