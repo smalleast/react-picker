@@ -1,0 +1,25 @@
+
+{
+  "name": "react-picker",
+  "description": "react share.",
+  "main": "dist/react-picker.js",
+  "authors": [
+    "smalleast"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "next"
+  ],
+  "homepage": "https://github.com/smalleast/react-picker",
+  "moduleType": [
+    "amd"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "src"
+  ]
+}
