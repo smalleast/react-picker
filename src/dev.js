@@ -1,5 +1,4 @@
 import React from 'react';
-import './components/picker.scss';
 import './dev.scss';
 import {ReactPicker, PickerGroup} from './main';
 

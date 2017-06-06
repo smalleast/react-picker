@@ -2,6 +2,7 @@ import React, {Component, PropTypes} from 'react';
 import PickerGroup from './picker_group';
 import classNames from 'classnames';
 import Mask from './mask';
+import './picker.scss'
 
 class Picker extends Component {
   static propTypes = {
@@ -104,6 +105,7 @@ class Picker extends Component {
 
     return this.props.show ? (
       <div>
+        <Mask className={maskCls} onClick={e=>this.handleClose( ()=> {if (this.props.onCancel) this.props.onCancel(e);} )} />
         <div className={cls}>
           { this.renderActions() }
           <div className="weui-picker__bd">
