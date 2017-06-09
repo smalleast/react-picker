@@ -22,7 +22,7 @@ class PickerGroup extends React.Component {
     groupIndex: -1,
     defaultIndex: -1,
     mapKeys: {
-      label: 'label'
+      label: 'text'
     }
   }
 
